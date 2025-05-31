@@ -41,3 +41,14 @@ cd randomColor_Changer
 npm install
 npm start
 ```
+
+## ⚠️ Linux Users: Important Setup for Running the App
+
+After unzipping the app, you must fix the sandbox permissions or the app won’t run.
+
+In your terminal, navigate to the unzipped folder and run:
+
+```bash
+sudo chown root chrome-sandbox
+sudo chmod 4755 chrome-sandbox
+```
