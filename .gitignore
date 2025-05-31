@@ -1,0 +1,5 @@
+# Ignore built stuff
+dist/
+
+# Ignore dependencies
+node_modules/
